@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+#container {
+    background-color: #87ceeb;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: all 2s;
+}
+
+.title {
+    color: white;
+    font-size: 100px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.534);
+}
+
+.btn-wrap button {
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.479);
+}
+
+.play {
+    background-color: black;
+    color: white;
+}
